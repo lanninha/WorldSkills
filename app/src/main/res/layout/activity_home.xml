@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/roxoEscuro"
+    tools:context=".Home">
+
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/carrossel"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_marginTop="190dp" />
+
+
+    <Button
+        android:id="@+id/my_button"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="Visite o site da competição"
+        android:backgroundTint="@color/roxoMedio"
+        android:layout_marginTop="410dp"
+        android:layout_marginLeft="60dp"/>
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="1900dp"
+        android:layout_height="500dp"
+        app:srcCompat="@drawable/world_skills"
+        android:layout_marginTop="-160dp"/>
+
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginLeft="15dp"
+        android:src="@drawable/menu_icon"/>
+
+    <TextView
+        android:layout_width="343dp"
+        android:layout_height="160dp"
+        android:text="“A WorldSkills transforma a vida desses jovens, que têm a oportunidade de alcançar um altíssimo nível técnico e estar entre os melhores do mundo. Para o país, temos um retorno imediato por mantermos atualizados os instrutores e as escolas com as melhores práticas e tecnologias internacionais”, destaca o delegado técnico do Brasil, Jeferson Mateucci. "
+        android:textColor="@color/branco"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="480dp"
+        android:textSize="15dp"
+        android:justificationMode="inter_word"/>
+
+
+</RelativeLayout>
